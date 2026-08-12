@@ -8,6 +8,9 @@ public class TestDemo2 {
 	{
 		System.out.println("instance block");
 	}
+	TestDemo2(){
+		System.out.println("constructor calling!");
+	}
 	static{
 		System.out.println("static block");
 	}
