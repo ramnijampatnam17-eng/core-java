@@ -1,0 +1,32 @@
+package com.javaintroduction;
+
+public class TestDemo2 {
+	static TestDemo2 sr = new TestDemo2();	
+	static{
+		System.out.println("static block");
+	}
+	{
+		System.out.println("instance block");
+	}
+	static{
+		System.out.println("static block");
+	}
+	void heloo() {
+		System.out.println("instance method");
+	}
+	static void hello() {
+		System.out.println("static method");
+	}
+
+	public static void main(String[] args) {
+
+		{
+			System.out.println("main method started!");
+		}
+		{
+			System.out.println("main method ended!");
+		}
+
+	}
+
+}
