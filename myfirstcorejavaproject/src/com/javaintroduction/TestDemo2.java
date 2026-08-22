@@ -1,9 +1,8 @@
 package com.javaintroduction;
 
-public class TestDemo2 {
-	static TestDemo2 sr = new TestDemo2();	
+public class TestDemo2 {	
 	static{
-		System.out.println("static block");
+		System.out.println("static block1");
 	}
 	{
 		System.out.println("instance block");
@@ -22,6 +21,9 @@ public class TestDemo2 {
 	}
 
 	public static void main(String[] args) {
+		TestDemo2 sr = new TestDemo2();	
+		sr.heloo();
+		hello();
 
 		{
 			System.out.println("main method started!");

@@ -1,19 +1,15 @@
 package com.javaintroduction;
 
-public class TestDemo3 {
+public class TestDemo5 {
 	static int x = 10;
-	static {
-		x=30;
-		System.out.println(x);
-	}
 	static{
-		x=20;
+		int x=20;
 		System.out.println(x);
 	}
 
 	public static void main(String[] args) {
 		System.out.println(x);
-
+		// TODO Auto-generated method stub
 
 	}
 
