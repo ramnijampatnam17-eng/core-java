@@ -33,6 +33,14 @@ public class Librarybook2 {
 		System.out.println("LIBRARIANNAME:"+librarianname);
 		
 	}
+	static void method() {
+		System.out.println("***new!***");
+		Librarybook2 rm = new Librarybook2();
+		rm.bookid=302;
+		System.out.println("book:"+rm.bookid);
+		
+		
+	}
 
 	public static void main(String[] args) {
 		Librarybook2 sr = new Librarybook2();
@@ -46,6 +54,7 @@ public class Librarybook2 {
 		sr.displaylibrarydetails();
 		sr.issuebook();
 		sr.changelibrarian();
+		method();
 		System.out.println("second method started!");
 		
 		
